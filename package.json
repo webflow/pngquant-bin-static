@@ -1,0 +1,14 @@
+{
+  "name": "pngquant-bin-static",
+  "version": "0.1.0",
+  "description": "pngquant wrapper with statically linked libpng for running on aws lambda",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "postinstall": "lib/install.sh"
+  },
+  "dependencies": {
+    "bin-wrapper": "^3.0.0"
+  }
+}
